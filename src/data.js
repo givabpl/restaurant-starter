@@ -22,20 +22,20 @@ import Avatar3 from '../src/assets/img/testimonial/avatar3.png';
 
 export const navData = [
   { href: '/', name: 'home' },
-  { href: '/', name: 'about' },
+  { href: '/', name: 'sobre' },
   { href: '/', name: 'menu' },
-  { href: '/', name: 'team' },
-  { href: '/', name: 'testimonials' },
-  { href: '/', name: 'book a table' },
-  { href: '/', name: 'contact' },
+  { href: '/', name: 'equipe' },
+  { href: '/', name: 'opiniões' },
+  { href: '/', name: 'fazer uma reserva' },
+  { href: '/', name: 'contato' },
 ];
 
 export const heroData = {
-  pretitle: 'Nothing brings together like',
-  title: 'Bistro Cafe',
+  pretitle: 'Uma pequena padaria de ',
+  title: 'Cookies',
   subtitle:
-    'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ',
-  btnText: 'Find out more',
+    'Tudo que você espera encontrar em uma padoca e uma confeitaria "cool", está aqui.',
+  btnText: 'Saiba mais',
 };
 
 export const socialData = [
@@ -47,123 +47,119 @@ export const socialData = [
 ];
 
 export const aboutData = {
-  pretitle: 'our story',
-  title: 'who we are',
+  pretitle: 'Nossa história',
+  title: 'Quem somos nós',
   subtitle:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur, quasi minima molestiae ex exercitationem culpa quisquam architecto quaerat, iusto dolores labore, sapiente magni rem commodi aperiam ad dolorem neque ducimus. Placeat vel non quod quis pariatur a aperiam, aliquam adipisci voluptatum voluptatem sit cupiditate dolore natus beatae earum omnis.',
-  btnText: 'find out more',
+    'Duas amigas apaixonadas por receitas de cookies, brownies e outros docinhos, começaram a experimentar com ingredientes importados e preparo artesanal, para obterem mais sabor e qualidade. <br>Depois de três anos praticando o hobbie, as duas decidiram abrir o próprio negócio, tendo em mente um local aconchegante, rústico e moderno ao mesmo tempo. <br>O nome ®PADUKIM é a junção de Panda, Duda e Kim.',
+  btnText: 'Descubra mais',
   image: AboutImg,
 };
 
 export const menuData = {
-  title: 'delicious flavour of autumn',
-  subtitle: 'view all menu for tasty meal today',
+  title: 'O sabor do outono',
+  subtitle: 'veja o que temos pra hoje',
   modelImg: ModelWhiteImg,
-  btnText: 'view complete menu',
+  btnText: 'ver menu completo',
   menuItems: [
     {
       image: MenuImg1,
-      name: 'Chocolate Cake',
-      price: '$7.99',
-      description: 'Class aptent taciti ciosqu litora torquent per',
+      name: 'Cookie Múmia',
+      price: 'R$14,50',
+      description: 'Delicioso cookie bem "chocolatudo" coberto com glacê de baunilha.',
     },
     {
       image: MenuImg2,
-      name: 'Veggie Burger',
-      price: '$9.49',
-      description: 'Class aptent taciti ciosqu litora torquent per',
+      name: 'Spooky Cookie',
+      price: 'R$12,30',
+      description: 'Cookie disponível em três formatos: morcego, abóbora e fantasma. Todos cobertos com glacê de baunilha.',
     },
     {
       image: MenuImg3,
-      name: 'King Burger',
-      price: '$8.50',
-      description: 'Class aptent taciti ciosqu litora torquent per',
+      name: 'O de sempre',
+      price: 'R$8.50',
+      description: 'Cookie clássico com gotas de chocolate',
     },
     {
       image: MenuImg4,
-      name: 'Mexican Burger',
-      price: '$9.99',
-      description: 'Class aptent taciti ciosqu litora torquent per',
+      name: 'Bendita Nata',
+      price: 'R$2,30',
+      description: 'Bolachinha (ou bixcoito) de nata, levemente coberta por glacê de baunilha, com recheio de frutas vermelhas e base de chocolate meio amargo',
     },
   ],
 };
 
 export const teamData = {
-  pretitle: 'our team',
-  title: 'meet our chef',
+  pretitle: 'Nossa equipe',
+  title: 'Conheça nosso chef',
   sub1: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.',
   sub2: 'Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.',
-  name: 'sara peter',
-  occupation: 'executive chef',
+  name: 'Agatha Martins',
+  occupation: 'Chef executiva',
   signatureImg: SignatureImg,
   chefImg: ChefImg,
 };
 
 export const testimonialData = {
-  title: "what client's say ",
-  subtitle: '1500+ statisfied clients',
+  title: "o quê nossos clientes dizem ",
+  subtitle: '+ de 600 clientes satisfeitos',
   modelImg: ModelWhiteImg,
   slider: [
     {
       message:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
       image: Avatar1,
-      name: 'Rick Thompson',
-      occupation: 'CEO of Delightful',
+      name: 'Alan Botas',
+      occupation: 'CEO da OrasBolos',
     },
     {
       message:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
       image: Avatar2,
-      name: 'John Doe',
-      occupation: 'CEO of Delightful',
+      name: 'Clara Tulipas',
+      occupation: 'Embaixadora da Sabor Morango',
     },
     {
       message:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
       image: Avatar3,
-      name: 'Henry A.',
-      occupation: 'CEO of Delightful',
+      name: 'Taylor Smith',
+      occupation: 'Cantora',
     },
   ],
 };
 
 export const reservationData = {
-  title: 'booking form',
+  title: 'reserva',
   subtitle:
-    'Call (800) 123-4567 from 5AM - 11PM daily, or book online with OpenTable.Reservations required for parties of 6 or more.',
+    'Liguec para (14) 91234-5678 das 05:40AM - 11:00PM, de quarta à domingo, ou agende online em OpenTable.Reservations (Exigido para reservas de 6 pessoas ou mais).',
   modelImg: ModelBlackImg,
-  btnText: 'make a reservation',
+  btnText: 'faça uma reserva',
 };
 
 export const newsletterData = {
-  title: 'join our newsletter',
-  subtitle: 'Get latest news & updates in your inbox.',
-  placeholder: 'Subscribe our delicious dishes',
-  btnText: 'subscribe now',
+  title: 'assine nossa newsletter',
+  subtitle: 'Receba nossas novidades em seu email.',
+  placeholder: 'Inscreva-se para conhecer doces deliciosos.',
+  btnText: 'Me inscrever agora',
 };
 
 export const footerData = {
   contact: {
-    title: 'contact location',
-    address: '3784 patterson road, #8 new york, CA 69000',
-    phone: '(201)256-3689',
+    title: 'contato e localização',
+    address: 'Avenida Cheirinho de Lavanda N°06, Centro - Brotas 1780-000',
+    phone: '(14) 91234-5678',
   },
   hours: {
-    title: 'working hours',
+    title: 'horário de funcionamento',
     program: [
       {
-        days: 'monday - friday',
-        hours: '09:00 AM - 10:00 PM',
-      },
-      {
-        days: 'saturday - sunday',
-        hours: '09:00 AM - 11:00 PM',
+        days: 'quarta - domingo',
+        hours: '05:00 AM - 11:00 PM',
       },
     ],
   },
   social: {
-    title: 'social network',
+    title: 'redes sociais',
     icons: [
       { href: '/', icon: <FaYoutube /> },
       { href: '/', icon: <FaFacebookF /> },
