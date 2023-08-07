@@ -71,7 +71,7 @@ export const menuData = {
       image: MenuImg2,
       name: 'Spooky Cookie',
       price: 'R$12,30',
-      description: 'Cookie disponível em três formatos: morcego, abóbora e fantasma. Todos cobertos com glacê de baunilha.',
+      description: 'Cookie disponível em três formatos: morcego, abóbora e fantasma. Coberto com glacê de baunilha.',
     },
     {
       image: MenuImg3,
