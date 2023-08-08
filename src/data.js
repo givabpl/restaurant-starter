@@ -50,7 +50,7 @@ export const aboutData = {
   pretitle: 'Nossa história',
   title: 'Quem somos nós',
   subtitle:
-    'Duas amigas apaixonadas por receitas de cookies, brownies e outros docinhos, começaram a experimentar com ingredientes importados e preparo artesanal, para obterem mais sabor e qualidade. <br>Depois de três anos praticando o hobbie, as duas decidiram abrir o próprio negócio, tendo em mente um local aconchegante, rústico e moderno ao mesmo tempo. <br>O nome ®PADUKIM é a junção de Panda, Duda e Kim.',
+    'Duas amigas apaixonadas por receitas de cookies, brownies e outros docinhos, começaram a experimentar com ingredientes importados e preparo artesanal, para obterem mais sabor e qualidade. Depois de três anos praticando o hobby, as duas decidiram abrir o próprio negócio, tendo em mente um local aconchegante, rústico e moderno ao mesmo tempo. O nome ®PADUKIM é a junção de Panda, Duda e Kim.',
   btnText: 'Descubra mais',
   image: AboutImg,
 };
