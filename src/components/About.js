@@ -19,11 +19,13 @@ const About = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{once: false, amount: 0.6}}
-          className='min-h-[560px] flex flex-col lg:flex-row items-center'>
+          className='min-h-[560px] flex flex-col lg:flex-row items-center'
+        >
           {/* texto */}
           <motion.div 
-          variants={fadeIn('right', 'tween', 0.2, 1.8)}
-            className='flex-1 text-center lg:text-left'>
+            variants={fadeIn('right', 'tween', 0.2, 1.8)}
+            className='flex-1 text-center lg:text-left'
+          >
             <div className='pretitle'>{pretitle}</div>
             <h2 className='h2 capitalize'>{title}</h2>
             <p className='mb-8 max-w-[560px]'>{subtitle}</p>
@@ -31,8 +33,9 @@ const About = () => {
           </motion.div>
           {/* imagem */}
           <motion.div 
-          variants={plateVariants}
-            className='-mb-[300px] z-10'>
+            variants={plateVariants}
+            className='-mb-[300px] z-10'
+          >
             <img className='' src={image} alt=''/>
           </motion.div>
         </motion.div>

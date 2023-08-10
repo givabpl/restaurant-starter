@@ -19,7 +19,8 @@ const TestimonialCarousel = ({ slider }) => {
         return (
           <div 
             className='max-w-[840px] mx-auto px-24 text-white'
-            key={index}>
+            key={index}
+          >
             <div className='text-lg mb-9 lg:text-2xl leading-snug'>
               {message}
             </div>

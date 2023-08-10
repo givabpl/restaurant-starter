@@ -21,7 +21,8 @@ const Testimonial = () => {
           variants={fadeIn('up', 'tween', 0.2, 1.6)} 
           initial="hidden"
           whileInView={'show'}
-          className='text-center capitalize flex flex-col items-center'>
+          className='text-center capitalize flex flex-col items-center'
+        >
           <h2 className='h2 text-white'>{title}</h2>
           <p className='text-white/70 capitalize mb-8'>{subtitle}</p>
           <div className='mb-12'>
@@ -34,7 +35,8 @@ const Testimonial = () => {
           variants={fadeIn('up', 'tween', 0.4, 1.6)} 
           initial="hidden"
           whileInView={'show'}
-          className='flex justify-center items-center'>
+          className='flex justify-center items-center'
+        >
           <TestimonialCarousel slider={slider}/>
         </motion.div>
       </div>

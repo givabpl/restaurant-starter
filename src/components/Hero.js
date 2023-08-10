@@ -23,26 +23,30 @@ const Hero = () => {
           variants={staggerContainer(0.3, 1)} 
           initial='hidden'
           whileInView={'show'} 
-          className='text-center flex flex-col items-center'>
+          className='text-center flex flex-col items-center'
+        >
 
           {/* pre-titulo */}
           <motion.div 
             variants={fadeIn('down', 'tween', 0.2, 1.1)} 
-            className='text-white text-[24px] lg:text-[28px] font-primary italic lg:font-medium mb-1'>
+            className='text-white text-[24px] lg:text-[28px] font-primary italic lg:font-medium mb-1'
+          >
             {pretitle}
           </motion.div>
 
           {/* titulo */}
           <motion.h1 
             variants={fadeIn('down', 'tween', 0.3, 1.1)} 
-            className='h1 mb-5 '>
+            className='h1 mb-5 '
+          >
             {title}
           </motion.h1>
 
           {/* subtitulo */}
           <motion.p 
             variants={fadeIn('down', 'tween', 0.4, 1.1)} 
-            className='text-white max-w-[540px] mb-8'>
+            className='text-white max-w-[540px] mb-8'
+          >
             {subtitle}
           </motion.p>
 
