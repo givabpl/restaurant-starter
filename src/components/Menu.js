@@ -8,7 +8,7 @@ import { fadeIn, staggerContainer } from '../variants';
 
 const Menu = () => {
   //dados do menu
-  const {title, subtitle, modelImg, menuItems, btnText}  = menuData;
+  const { title, subtitle, modelImg, menuItems, btnText }  = menuData;
   return (
     <section className='min-h-[780px]'>
 

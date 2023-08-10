@@ -12,11 +12,11 @@ import { staggerContainer, fadeIn } from '../variants';
 
 const headerVariants = {
   hidden: {
-    padding: '84px 0 84px 0',
+    padding: '34px 0 34px 0',
     background: 'none',
   },
   show: {
-    padding: '14px 0 14px 0',
+    padding: '12px 0 12px 0',
     background: 'rgba(0,0,0,0.92)',
     transition: {
       type: 'spring'
@@ -104,6 +104,7 @@ const Header = () => {
 
               {/* logo */}
               <motion.div 
+                className='order-1 lg:order-none lg:ml-[11rem]'
                 variants={fadeIn('down', 'tween', 1.2, 1.4)}>
                 <a href='#'className='text'>
                   {/* se o header esta ativo, logo 90 x 90 px, caso contrario, 107 x 107 px */}

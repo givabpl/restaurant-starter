@@ -76,7 +76,7 @@ export const menuData = {
     {
       image: MenuImg3,
       name: 'O de sempre',
-      price: 'R$8.50',
+      price: 'R$8,50',
       description: 'Cookie com gotas de chocolate',
     },
     {
@@ -90,10 +90,10 @@ export const menuData = {
 
 export const teamData = {
   pretitle: 'Nossa equipe',
-  title: 'Conheça nosso chef',
-  sub1: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.',
-  sub2: 'Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.',
-  name: 'Agatha Martins',
+  title: 'Conheça nossa chef',
+  sub1: 'Agatha sempre foi apaixonada por petiscos luxuosos, especialmente cookies. Um dia, amassar pãezinhos deixou de ser um hobby e Agatha Gata decidiu seguir sua carreira como chef.',
+  sub2: 'Inicialmente tivemos uma barreira de idiomas com a felina, mas as peças se encaixaram perfeitamente quando a chef começou a dominar nossa cozinha.',
+  name: 'Agatha Gata',
   occupation: 'Chef executiva',
   signatureImg: SignatureImg,
   chefImg: ChefImg,
@@ -106,21 +106,21 @@ export const testimonialData = {
   slider: [
     {
       message:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
+        'Miau miau miaaaau miAaAauuUUuuUu miau miau miau miau. Miau miau miAAAAAAAAuuuu. Miau miau miau, miau, miau miau.',
       image: Avatar1,
       name: 'Alan Botas',
       occupation: 'CEO da OrasBolos',
     },
     {
       message:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
+        'Prrrrrrrrrr prrrr... Prrr PRRRR prrr, prrr prrr miauprrrrrr, prrr, prrr, prrrrrrr PRRRRR, prrr.',
       image: Avatar2,
       name: 'Clara Tulipas',
       occupation: 'Embaixadora da Sabor Morango',
     },
     {
       message:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
+        'Eu gosto muito de gatos, os cookies são ótimos, mas pra ser sincera eu venho aqui só pra ver os gatos.',
       image: Avatar3,
       name: 'Taylor Smith',
       occupation: 'Cantora',
@@ -131,7 +131,7 @@ export const testimonialData = {
 export const reservationData = {
   title: 'reserva',
   subtitle:
-    'Liguec para (14) 91234-5678 das 05:40AM - 11:00PM, de quarta à domingo, ou agende online em OpenTable.Reservations (Exigido para reservas de 6 pessoas ou mais).',
+    'Ligue para (14) 91234-5678 das 05:40AM - 11:00PM, de quarta à domingo, ou agende online em OpenTable.Reservations (Exigido para reservas de 6 pessoas ou mais).',
   modelImg: ModelBlackImg,
   btnText: 'faça uma reserva',
 };
