@@ -15,7 +15,7 @@ const Hero = () => {
     <section className='min-h-[980px] bg-hero bg-cover bg-right'>
 
       {/* header */}
-      <Header/>
+      <Header />
 
       <div className='container mx-auto  min-h-[980px] flex justify-center items-center'>
         {/* texto */}

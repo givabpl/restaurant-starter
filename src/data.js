@@ -139,7 +139,7 @@ export const reservationData = {
 export const newsletterData = {
   title: 'assine nossa newsletter',
   subtitle: 'Receba nossas novidades em seu email.',
-  placeholder: 'Inscreva-se para conhecer doces deliciosos.',
+  placeholder: 'Inscreva-se para conhecer docinhos.',
   btnText: 'Me inscrever agora',
 };
 

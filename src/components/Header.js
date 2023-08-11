@@ -57,7 +57,6 @@ const Header = () => {
     });
   });
 
-
   return (
     <motion.header 
       variants={headerVariants} 
@@ -122,7 +121,7 @@ const Header = () => {
                 variants={fadeIn('down', 'tween', 1.4, 1.4)}
                 className='hidden lg:flex'
               >
-                <Socials/>
+                <Socials />
               </motion.div>
 
               {/* nav  */}

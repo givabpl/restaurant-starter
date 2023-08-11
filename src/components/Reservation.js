@@ -65,7 +65,7 @@ const Reservation = () => {
             {/* datepicker */}
             <div>
               <div className='flex items-center gap-x-[10px] font-semibold text-dark text-base mb-3'>
-                <FaCalendar/>
+                <FaCalendar />
                 <div>Escolher Data</div>
               </div>
               <DatePicker 
@@ -78,7 +78,7 @@ const Reservation = () => {
             {/* timepicker */}
             <div>
               <div className='flex items-center gap-x-[10px] font-semibold text-dark text-base mb-3'>
-                <FaClock/>
+                <FaClock />
                 <div>Escolher Horário</div>
               </div>
               <TimePicker 
@@ -93,7 +93,7 @@ const Reservation = () => {
             {/* numero de pessoas */}
             <div>
               <div className='flex items-center gap-x-[10px] font-semibold text-dark text-base mb-3'>
-                  <FaUsers/>
+                  <FaUsers />
                   <div>Número de pessoas</div>
               </div>
               <input className='input' type='text' placeholder='1'/>
