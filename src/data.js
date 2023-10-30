@@ -25,7 +25,7 @@ export const navData = [
   { href: '/About.js', name: 'sobre' },
   { href: '/Menu.js', name: 'menu' },
   { href: '/Team.js', name: 'equipe' },
-  { href: '/Testimonial.js', name: 'opiniões' },
+  { href: '/#testimonial', name: 'opiniões' },
   { href: '/Reservation.js', name: 'fazer uma reserva' },
   { href: '/Socials.js', name: 'contato' },
 ];

@@ -13,7 +13,7 @@ const Testimonial = () => {
   const { title, subtitle, modelImg, slider } = testimonialData;
 
   return (
-    <section className='bg-testimonial bg-cover bg-no-repeat relative top-[340px] lg:top-[390px] z-10 h-[800px] pt-[60px] md:pt-[120px]'>
+    <section className='bg-testimonial bg-cover bg-no-repeat relative top-[340px] lg:top-[390px] z-10 h-[800px] pt-[60px] md:pt-[120px]' id="testimonial">
       <div className='container mx-auto'>
 
         {/* texto */}
