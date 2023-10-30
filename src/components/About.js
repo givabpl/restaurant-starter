@@ -11,7 +11,7 @@ const About = () => {
   const { pretitle, title, subtitle, btnText, image } = aboutData;
 
   return (
-    <section className='min-h-[560px]'>
+    <section className='min-h-[560px]' id="sobre">
       <div className='container mx-auto min-h-[560px]'>
         {/* wrapper do texto e imagem */}
         <motion.div 

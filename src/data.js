@@ -21,13 +21,13 @@ import Avatar2 from '../src/assets/img/testimonial/avatar2.png';
 import Avatar3 from '../src/assets/img/testimonial/avatar3.png';
 
 export const navData = [
-  { href: '/Header.js', name: 'home' },
-  { href: '/About.js', name: 'sobre' },
-  { href: '/Menu.js', name: 'menu' },
-  { href: '/Team.js', name: 'equipe' },
-  { href: '/#testimonial', name: 'opiniões' },
-  { href: '/Reservation.js', name: 'fazer uma reserva' },
-  { href: '/Socials.js', name: 'contato' },
+  { href: '/#inicio', name: 'home' },
+  { href: '/#sobre', name: 'sobre' },
+  { href: '/#menu', name: 'menu' },
+  { href: '/#equipe', name: 'equipe' },
+  { href: '/#opinioes', name: 'opiniões' },
+  { href: '/#reserva', name: 'fazer uma reserva' },
+  { href: '/#contato', name: 'contato' },
 ];
 
 export const heroData = {

@@ -10,7 +10,7 @@ const Menu = () => {
   //dados do menu
   const { title, subtitle, modelImg, menuItems, btnText }  = menuData;
   return (
-    <section className='min-h-[780px]'>
+    <section className='min-h-[780px]' id="menu">
 
       {/* background */}
       <div className='h-[780px] bg-menu absolute w-full max-w-[1800px] -z-0'></div>

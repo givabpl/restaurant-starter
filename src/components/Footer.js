@@ -14,7 +14,7 @@ const Footer = () => {
   // dados footer
   const { contact, hours, social } = footerData;
   return (
-  <footer className='relative top-96 z-20 bg-dark lg:bg-transparent lg:min-h-[620px] lg:bg-footer lg:bg-center lg:bg-no-repeat pt-20 lg:pt-32'>
+  <footer className='relative top-96 z-20 bg-dark lg:bg-transparent lg:min-h-[620px] lg:bg-footer lg:bg-center lg:bg-no-repeat pt-20 lg:pt-32' id="conatato">
     <div className='container mx-auto h-full'>
       {/* newsletter & info */}
       <motion.div
